@@ -1,2 +1,3 @@
-# Exercícios - Programação Web
-Universidade Católica de Pernambuco
+# Exercícios - Programação Para Web
+# Prof. Marcio Bueno
+Universidade Católica de Pernambuco (UNICAP)
