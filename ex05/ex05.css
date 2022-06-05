@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(209, 220, 224);
+    text-align: left;
+  }
+  
+  a:hover {
+    border: dashed;
+  }
+  
+  .preDireita {
+    text-align: left;
+  }
+  
+  #tituloPrincipal {
+    text-transform: lowercase;
+  }
+  
+  p first-line {
+    color: #000000;
+    font-variant: small-caps;
+  }
+  
+  a[target="_blank"] {
+    font-size: xx-large;
+  }
+
+  p {
+    text-align: justify;
+}
