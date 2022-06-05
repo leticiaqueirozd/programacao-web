@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex. 02 - Tabela</title>
+     
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+    
+</head>
+<body>
+    <div id="res">
+        <h1>Tabela de Números Aleatórios</h1> 
+        <hr>    
+        <p>Inisira a quantidade de colunas e clique em "Adicionar na tabela" </p>
+        <input type="number" id="colunas"><div id="rescol"></div>
+        <br>
+        <hr>
+        <p>Clique no botão para gerar numeros aleatórios e em seguida clique em "Adicionar na tabela"</p>
+        <button id="btn">Gerar</button>
+        <br>
+        <div id="pre"></div>
+        <br>
+        <hr>
+        <button id="btnadc">Adicionar na tabela</button>
+    </div>
+    <br>
+    <button id="btnp" onclick="pular()">Pular linha</button>
+</div>
+        <hr>
+    
+    <div id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th id="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="num"></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    
+    
+    <script src="ex02.js"></script>
+</body>
+</html>
