@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./ex06.css" />
+    <script
+      type="text/javascript"
+      src="https://npmcdn.com/parse/dist/parse.min.js"
+    ></script>
+    <script src="./ex06.js" defer></script>
+  </head>
+  <body>
+    <div class="div1">
+      <h1>Lista de Tarefas</h1>
+      <p>
+        Descrição: <input type="text" id="description" />
+      </p><button id="btnCreate" type="submit">Inserir</button>
+      <br>
+      <hr />
+      <label>
+        Exibir tarefas concluídas
+        <input type="checkbox" id="showAccomplisheds">
+      </label>
+    </div>
+    <div class="div2">
+      <ul id="list"></ul>
+    </div>
+  </body>
+</html>
